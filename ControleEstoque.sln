@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF2B470B-3C33-4100-9C6D-3E3D040F8AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleEstoque.Core", "src\BackEnd\ControleEstoque.Core\ControleEstoque.Core.csproj", "{770E06DF-A27F-4549-A9EA-59050D8EAAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleEstoque.Infrastructure", "src\BackEnd\ControleEstoque.Infrastructure\ControleEstoque.Infrastructure.csproj", "{15E5E5CA-1171-435D-9C54-49A4D78C0475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleEstoque.Tests", "src\BackEnd\ControleEstoque.Tests\ControleEstoque.Tests.csproj", "{53C64CC0-A77A-4988-A83F-718BC926B8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleEstoque.App", "src\BackEnd\ControleEstoque.App\ControleEstoque.App.csproj", "{6C76B97D-1B26-4A70-91FB-33EA65561DF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{770E06DF-A27F-4549-A9EA-59050D8EAAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770E06DF-A27F-4549-A9EA-59050D8EAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770E06DF-A27F-4549-A9EA-59050D8EAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770E06DF-A27F-4549-A9EA-59050D8EAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E5E5CA-1171-435D-9C54-49A4D78C0475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E5E5CA-1171-435D-9C54-49A4D78C0475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E5E5CA-1171-435D-9C54-49A4D78C0475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E5E5CA-1171-435D-9C54-49A4D78C0475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C64CC0-A77A-4988-A83F-718BC926B8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C64CC0-A77A-4988-A83F-718BC926B8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C64CC0-A77A-4988-A83F-718BC926B8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C64CC0-A77A-4988-A83F-718BC926B8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C76B97D-1B26-4A70-91FB-33EA65561DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C76B97D-1B26-4A70-91FB-33EA65561DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C76B97D-1B26-4A70-91FB-33EA65561DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C76B97D-1B26-4A70-91FB-33EA65561DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {EF2B470B-3C33-4100-9C6D-3E3D040F8AEF}
+		{770E06DF-A27F-4549-A9EA-59050D8EAAB1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{15E5E5CA-1171-435D-9C54-49A4D78C0475} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{53C64CC0-A77A-4988-A83F-718BC926B8EA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6C76B97D-1B26-4A70-91FB-33EA65561DF2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FAA0190-F90B-4C6E-9BBE-113129A432CF}
+	EndGlobalSection
+EndGlobal
